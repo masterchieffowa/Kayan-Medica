@@ -62,7 +62,7 @@ cd kayan-medica
 In the same directory where `file1.py` is located, run:
 
 ```bash
-python system.py
+python file1.py
 ```
 
 That’s it! The application GUI will launch, and you can begin managing your inventory.
@@ -84,17 +84,6 @@ kayan-medica/
 
 ---
 
-## 📷 Screenshots (Optional)
-
-```markdown
-<img width="1600" height="870" alt="image" src="https://github.com/user-attachments/assets/0a1f06ed-8bff-482f-abbc-529b545b612a" />
-<img width="1600" height="870" alt="image" src="https://github.com/user-attachments/assets/0e99d514-8cb1-4d21-8aa0-952c2f36ba71" />
-<img width="1600" height="867" alt="image" src="https://github.com/user-attachments/assets/12b187a5-41ba-476e-8d3a-a60365335281" />
-<img width="1600" height="866" alt="image" src="https://github.com/user-attachments/assets/1ec40adc-dc43-4324-a431-eafbf92ac83d" />
-```
-
----
-
 ## 🌐 Links
 
 * 📘 Facebook Page: [Kayan Medica](https://www.facebook.com/masrymedical/)
@@ -112,7 +101,7 @@ Contact us for licensing, custom features, or collaboration.
 ## 🙋‍♂️ Author
 
 **Mahmoud**
-📧 \[mahmmoudadel607@gmail.com(mailto:mahmmoudadel607@gmail.com)]
+📧 \[mahmmoudadel607@gmail.com](mailto:mahmmoudadel607@gmail.com)
 🔗 [GitHub Profile](https://github.com/masterchieffowa)
 
 ---
