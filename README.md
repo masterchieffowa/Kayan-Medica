@@ -23,37 +23,49 @@ This application is designed to be an all-in-one solution for managing inventory
 
 ---
 
-## 🖥️ How to Run
+## 🖥️ How to Run the App
 
-### 1. Clone the repository
+### 1. Requirements
+
+- ✅ Python **3.8 or newer**
+- ✅ The following Python libraries:
+  - `openpyxl`
+  - `pillow` (for image/logo support)
+
+Install them via pip:
+
 ```bash
-git clone https://github.com/YOUR_USERNAME/kayan-medica.git
-cd kayan-medica
+pip install openpyxl pillow
 ````
 
-### 2. Install dependencies
+---
 
-Make sure you have Python 3.8+ installed. Then install required packages:
+### 2. Download the Project Files
+
+Simply download the following files into a folder:
+
+* `file1.py` → Main application file
+* `logo.png` → (Optional) Your business logo
+* `db.xlsx` → No need to create; it will be auto-generated on first run
+
+Alternatively, if hosted on GitHub:
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/masterchieffowa/Kayan-Medica.git
+cd kayan-medica
 ```
 
-<details>
-<summary>Click to view requirements.txt</summary>
+---
 
-```txt
-openpyxl
-pillow
-```
+### 3. Run the App
 
-</details>
-
-### 3. Run the app
+In the same directory where `file1.py` is located, run:
 
 ```bash
 python system.py
 ```
+
+That’s it! The application GUI will launch, and you can begin managing your inventory.
 
 ---
 
@@ -61,23 +73,24 @@ python system.py
 
 ```plaintext
 kayan-medica/
-├── system.py         # Main application script
-├── db.xlsx           # Inventory data file (auto-created)
+├── file1.py          # Main application script
+├── db.xlsx           # Inventory data file (auto-created if missing)
 ├── logo.png          # Optional logo for the GUI
-├── .gitignore
-└── README.md
+├── README.md         # You're reading it
+└── .gitignore        # Optional, for version control
 ```
 
-> ⚠️ `store.db`, `image.jpg`, `dist/`, and other temp files are excluded via `.gitignore`.
+> ⚠️ Do not delete `db.xlsx` unless you want to reset all stored data.
 
 ---
 
 ## 📷 Screenshots (Optional)
 
-> *You can upload screenshots of the GUI and link them here for GitHub previews.*
-
 ```markdown
-![Screenshot](screenshots/main.png)
+<img width="1600" height="870" alt="image" src="https://github.com/user-attachments/assets/0a1f06ed-8bff-482f-abbc-529b545b612a" />
+<img width="1600" height="870" alt="image" src="https://github.com/user-attachments/assets/0e99d514-8cb1-4d21-8aa0-952c2f36ba71" />
+<img width="1600" height="867" alt="image" src="https://github.com/user-attachments/assets/12b187a5-41ba-476e-8d3a-a60365335281" />
+<img width="1600" height="866" alt="image" src="https://github.com/user-attachments/assets/1ec40adc-dc43-4324-a431-eafbf92ac83d" />
 ```
 
 ---
@@ -85,54 +98,38 @@ kayan-medica/
 ## 🌐 Links
 
 * 📘 Facebook Page: [Kayan Medica](https://www.facebook.com/masrymedical/)
-* 🔗 GitHub Repo: [github.com/YOUR\_USERNAME/kayan-medica](https://github.com/YOUR_USERNAME/kayan-medica)
+* 🔗 GitHub Repo: [github.com/masterchieffowa/Kayan-Medica](https://github.com/masterchieffowa/Kayan-Medica)
 
 ---
 
 ## 📄 License
 
-This project is proprietary and developed by Kayan Medica. Contact us for licensing or collaboration.
+This project is **proprietary** and developed by **Kayan Medica**.
+Contact us for licensing, custom features, or collaboration.
 
 ---
 
 ## 🙋‍♂️ Author
 
 **Mahmoud**
-\[Your GitHub Profile or Email]
+📧 \[mahmmoudadel607@gmail.com(mailto:mahmmoudadel607@gmail.com)]
+🔗 [GitHub Profile](https://github.com/masterchieffowa)
 
 ---
 
-## 🔄 Future Ideas
+## 🔄 Future Features (Ideas)
 
-* Backup to cloud (Google Drive or Dropbox)
-* Barcode scanner integration
-* Print invoice or receipt generation
-
-````
+* Backup to cloud (Google Drive, Dropbox)
+* Barcode scanner support
+* Receipt or invoice printing
+* Multi-user access with permissions
 
 ---
 
-## ✅ What's Next?
+## ✅ Quick Notes
 
-1. **Save the above content** into a file called `README.md` in your project directory.
-2. **Update your `.gitignore`** (if not done yet) to exclude sensitive or generated files:
+* The app is fully local (no internet required after install)
+* Excel file can be backed up or shared easily
+* Best suited for **Arabic-speaking local businesses**
 
-```bash
-# .gitignore
-db.xlsx
-store.db
-*.jpg
-*.ico
-build/
-dist/
-__pycache__/
-*.pyc
 ````
-
-3. Then commit and push:
-
-```bash
-git add README.md .gitignore
-git commit -m "Add README and gitignore"
-git push origin main
-```
