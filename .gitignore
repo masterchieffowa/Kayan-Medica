@@ -1,0 +1,10 @@
+build/
+dist/
+
+db.xlsx
+store.db
+
+file1.spec
+
+image.ico
+image.jpg
